@@ -38,30 +38,52 @@
 .img-wrapper img{
   width: 100px;
 }
+.btn-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .btn-wrapper button{
   border: 0px;
   border-radius: 4px;
   background-color: #ff1616;
-  padding: 4%;
+  padding: 2%;
   color: #fff;
-  margin: 5%;
+  margin: 2%;
   cursor: pointer;
-  width: 100px;
+  width: 125px;
   height: 38px;
+}
+.btn-wrapper>.remove-to-cart-btn{
+  background-color: #3f51b5;
 }
 .cart-icon{
   position: absolute;
+  top:5%;
   right:5%;
   cursor: pointer;
 }
 .cart-icon .fa-shopping-cart{
-  font-size: 40px;
+  font-size: 45px;
 }
 .cart-icon .fa-circle-plus{
   position: absolute;
     top: -8px;
     right: -10px;
     font-size: 20px;
+}
+i.fa-solid.cart-count {
+  width: 30px;
+  height: 30px;
+  background: #000;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  right: -15px;
 }
 @keyframes App-logo-spin {
   from {
